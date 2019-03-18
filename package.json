@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "buildFail": "tsc -p tsconfig-fail.json --rootDir src/test",
+        "buildFail": "tsc -p tsconfig-fail.json --rootDir src",
         "buildWork": "tsc -p tsconfig-work.json"
     },
     "dependencies": {
