@@ -24,7 +24,13 @@ Error: Debug Failure. False expression: Paths must either both be absolute or bo
     at Object.getRelativePathFromDirectory (C:\\projects\\node_modules\\typescript\\lib\\tsc.js:12393:15)
     at Object.getOutputPathForBuildInfo (C:\\projects\\node_modules\\typescript\\lib\\tsc.js:67425:55)
     at Object.readBuilderProgram (C:\\projects\\node_modules\\typescript\\lib\\tsc.js:76379:32)
-    ...
+    at performIncrementalCompilation (C:\\projects\\node_modules\\typescript\\lib\\tsc.js:78142:29)
+    at Object.executeCommandLine (C:\\projects\\node_modules\\typescript\\lib\\tsc.js:78042:17)
+    at Object.<anonymous> (C:\\projects\\node_modules\\typescript\\lib\\tsc.js:78285:4)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
 ```
 
 
