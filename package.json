@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "buildFail": "tsc -p tsconfig-fail.json --rootDir src/test",
+        "buildWork": "tsc -p tsconfig-work.json"
+    },
+    "dependencies": {
+        "typescript": "^3.4.0-dev.20190316"
+    }
+}
